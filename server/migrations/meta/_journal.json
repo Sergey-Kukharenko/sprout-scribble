@@ -1,0 +1,139 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1743142771210,
+      "tag": "0000_clumsy_supernaut",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1743833693826,
+      "tag": "0001_certain_bloodaxe",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1744693276629,
+      "tag": "0002_zippy_naoko",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1745214499178,
+      "tag": "0003_free_omega_sentinel",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1745214609270,
+      "tag": "0004_lame_mysterio",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1745300300061,
+      "tag": "0005_left_lethal_legion",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1745388345830,
+      "tag": "0006_tense_monster_badoon",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "7",
+      "when": 1745992643222,
+      "tag": "0007_cloudy_northstar",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "7",
+      "when": 1746596586789,
+      "tag": "0008_purple_iceman",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "7",
+      "when": 1749018883489,
+      "tag": "0009_sharp_tigra",
+      "breakpoints": true
+    },
+    {
+      "idx": 10,
+      "version": "7",
+      "when": 1750400711080,
+      "tag": "0010_zippy_betty_brant",
+      "breakpoints": true
+    },
+    {
+      "idx": 11,
+      "version": "7",
+      "when": 1752564287459,
+      "tag": "0011_brave_mattie_franklin",
+      "breakpoints": true
+    },
+    {
+      "idx": 12,
+      "version": "7",
+      "when": 1755760183960,
+      "tag": "0012_skinny_pandemic",
+      "breakpoints": true
+    },
+    {
+      "idx": 13,
+      "version": "7",
+      "when": 1757142190692,
+      "tag": "0013_colorful_lady_deathstrike",
+      "breakpoints": true
+    },
+    {
+      "idx": 14,
+      "version": "7",
+      "when": 1757399571177,
+      "tag": "0014_sparkling_magik",
+      "breakpoints": true
+    },
+    {
+      "idx": 15,
+      "version": "7",
+      "when": 1757489399312,
+      "tag": "0015_tough_deathstrike",
+      "breakpoints": true
+    },
+    {
+      "idx": 16,
+      "version": "7",
+      "when": 1757489485932,
+      "tag": "0016_even_loa",
+      "breakpoints": true
+    },
+    {
+      "idx": 17,
+      "version": "7",
+      "when": 1757574277812,
+      "tag": "0017_green_blink",
+      "breakpoints": true
+    },
+    {
+      "idx": 18,
+      "version": "7",
+      "when": 1757574404764,
+      "tag": "0018_futuristic_whiplash",
+      "breakpoints": true
+    }
+  ]
+}
