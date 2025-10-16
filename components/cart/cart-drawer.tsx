@@ -17,8 +17,7 @@ import OrderConfirmed from './order-confirmed';
 import CartProgress from './cart-progress';
 
 export default function CartDrawer() {
-  const { cart, checkoutProgress, setCheckoutProgress, cartOpen, setCartOpen } =
-    useCartStore();
+  const { cart, checkoutProgress, cartOpen, setCartOpen } = useCartStore();
 
   return (
     <Drawer open={cartOpen} onOpenChange={setCartOpen}>

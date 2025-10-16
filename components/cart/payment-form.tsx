@@ -25,6 +25,8 @@ export default function PaymentForm({ totalPrice }: Props) {
   const [isLoading, setIsLoading] = useState(false);
   const [errorMessage, setErrorMessage] = useState('');
 
+  console.log(errorMessage);
+
   const { execute } = useAction(createOrder, {
     onSuccess: ({ data }) => {
       if (data?.error) {

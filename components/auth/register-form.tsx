@@ -13,7 +13,7 @@ import {
 } from '../ui/form';
 import { AuthCard } from './auth-card';
 import { RegisterSchema } from '@/types/register-schema';
-import { string, z } from 'zod';
+import { z } from 'zod';
 import { Input } from '../ui/input';
 import { Button } from '../ui/button';
 import Link from 'next/link';

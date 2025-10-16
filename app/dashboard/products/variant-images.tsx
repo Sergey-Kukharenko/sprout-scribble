@@ -11,7 +11,6 @@ import {
 } from '@/components/ui/form';
 import {
   Table,
-  TableBody,
   TableCell,
   TableHead,
   TableHeader,
@@ -42,7 +41,7 @@ export default function VariantImages() {
       <FormField
         control={control}
         name='variantImages'
-        render={({ field }) => (
+        render={() => (
           <FormItem>
             <FormLabel>Tags</FormLabel>
             <FormControl>
