@@ -31,7 +31,7 @@ export type ProductColumn = {
 };
 
 const ActionCell = ({ row }: { row: Row<ProductColumn> }) => {
-  const { status, execute } = useAction(deleteProduct, {
+  const { execute } = useAction(deleteProduct, {
     onSuccess: ({ data }) => {
       if (data?.error) {
         toast.error(data.error);
