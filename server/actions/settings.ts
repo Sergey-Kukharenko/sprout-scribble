@@ -52,7 +52,7 @@ export const settings = actionClient
       values.password = hashedPassword;
       values.newPassword = undefined;
     }
-    const updateUser = await db
+    await db
       .update(users)
       .set({
         twoFactorEnabled: values.isTwoFactorEnabled,
