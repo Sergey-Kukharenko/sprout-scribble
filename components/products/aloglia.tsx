@@ -100,7 +100,7 @@ export default function Algolia() {
               exit={{ opacity: 0, scale: 0.8 }}
               className='absolute w-full z-50 overflow-y-scroll h-96'
             >
-              <Hits hitComponent={Hit} className='rounded-md' />
+              <Hits hitComponent={Hit} />
             </MCard>
           )}
         </AnimatePresence>

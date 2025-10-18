@@ -55,7 +55,7 @@ export default function PaymentForm({ totalPrice }: Props) {
       return;
     }
 
-    const { data } = await createPaymentIntent({
+    const result = await createPaymentIntent({
       amount: totalPrice * 100,
       currency: 'usd',
       cart: cart.map((item) => ({
@@ -67,6 +67,8 @@ export default function PaymentForm({ totalPrice }: Props) {
       }))
     });
 
+    const data = result?.data;
+
     if (data?.error) {
       setErrorMessage(data.error);
       setIsLoading(false);
@@ -75,7 +77,7 @@ export default function PaymentForm({ totalPrice }: Props) {
     if (data?.success) {
       const { error } = await stripe.confirmPayment({
         elements,
-        clientSecret: data.success.clientSecretID,
+        clientSecret: data.success.clientSecretID as string,
         redirect: 'if_required',
         confirmParams: {
           return_url: 'http://localhost:3000/success',
